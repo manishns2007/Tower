@@ -1,0 +1,35 @@
+# Tower Spatial Zones Configuration
+# Coordinates correspond to the camera frame pixel coordinate system: [x, y]
+
+zones:
+  front_door:
+    type: entry
+    points:
+      - [0, 0]
+      - [100, 0]
+      - [100, 100]
+      - [0, 100]
+
+  kitchen:
+    type: activity_area
+    points:
+      - [200, 100]
+      - [400, 100]
+      - [400, 300]
+      - [200, 300]
+
+  living_room:
+    type: common_area
+    points:
+      - [450, 100]
+      - [700, 100]
+      - [700, 450]
+      - [450, 450]
+
+  couch_area:
+    type: rest_area
+    points:
+      - [500, 200]
+      - [650, 200]
+      - [650, 350]
+      - [500, 350]
